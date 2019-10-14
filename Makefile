@@ -34,7 +34,7 @@ export SOURCES = $(wildcard $(SRC_DIR)/*.cpp)
 OBJECTS = $(addprefix $(SRC_OBJ_DIR)/, $(notdir $(SOURCES:.cpp=.o)))
 
 # define the executable
-EXECUTABLE = $(BUILD_DIR)/app
+EXECUTABLE = $(BUILD_DIR)
 
 .PHONY: all test clean
 
