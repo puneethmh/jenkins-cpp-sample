@@ -3,7 +3,7 @@ Opipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/puneethmh/jenkins-cpp-sample.git'
+                sh "git 'https://github.com/puneethmh/jenkins-cpp-sample.git'"
               }
         }
     }
